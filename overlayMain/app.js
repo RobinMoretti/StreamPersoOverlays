@@ -9,8 +9,8 @@ import Eye from "./Eye";
 
 function createEye(){
     let eye = new Eye();
-    let nextEye = (Math.random * 1500) + 1000;
-
+    let nextEye = (Math.random() * 15000) + 2000;
+    console.log(nextEye);
     setTimeout(() => {
         createEye();
     }, nextEye);
