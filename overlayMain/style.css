@@ -1,0 +1,31 @@
+body{
+    overflow: hidden;
+}
+#eye{
+    width: 100vw;
+    height: 100vh;
+    transform: rotate(0deg);
+    position: absolute;
+    left: 0px; top: 0;
+}
+
+#eye img{
+    width: 100px;
+    position: absolute;
+    left: calc(100% + 150px); top: 0;
+    animation:  20s linear 0s infinite move_eye;;
+}
+
+
+@keyframes move_eye{
+    from{
+        left: calc(100% + 150px);
+    }
+    to{
+        left: -350px;
+    }
+}
+
+.objects-container{
+    display: none;
+}
