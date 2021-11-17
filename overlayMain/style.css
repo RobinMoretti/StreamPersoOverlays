@@ -1,7 +1,7 @@
 body{
     overflow: hidden;
 }
-#eye{
+.eye{
     width: 100vw;
     height: 100vh;
     transform: rotate(0deg);
@@ -9,7 +9,7 @@ body{
     left: 0px; top: 0;
 }
 
-#eye img{
+.eye img{
     width: 100px;
     position: absolute;
     left: calc(100% + 150px); top: 0;

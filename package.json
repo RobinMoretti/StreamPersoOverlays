@@ -1,0 +1,23 @@
+{
+  "name": "main-overlay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rollup --config rollup.config.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobinMoretti/StreamPersoOverlays.git"
+  },
+  "author": "Robin Moretti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobinMoretti/StreamPersoOverlays/issues"
+  },
+  "homepage": "https://github.com/RobinMoretti/StreamPersoOverlays#readme",
+  "dependencies": {
+    "@rollup/plugin-typescript": "^8.3.0"
+  }
+}
